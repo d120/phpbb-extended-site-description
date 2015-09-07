@@ -1,0 +1,7 @@
+services:
+    d120de.extendedSiteDescription.listener:
+        class: d120de\extendedSiteDescription\event\main_listener
+        arguments:
+            - @template
+        tags:
+            - { name: event.listener }
